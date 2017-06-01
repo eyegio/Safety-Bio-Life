@@ -1,0 +1,26 @@
+<section id="contact-section">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-container">
+        <p>Safety Bio Life S.r.l.<br>
+        Sede legale in Viale Sondrio 5, 20124 Milano</p>
+        <a>info@safetybiolife.com</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zm" [scrollwheel]="mapW" [styles]="style">
+          <sebm-google-map-circle [latitude]="lat" [longitude]="lng"
+            [radius]="50"
+            [fillColor]="'#4990E2'"
+            [fillOpacity]=".8">
+          </sebm-google-map-circle>
+        </sebm-google-map>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+    <p class="footer-info">P.IVA: 09493160965 - REA: 2094965</p>
+    </div>
+  </div>
+
+</section>

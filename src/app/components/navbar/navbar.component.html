@@ -1,0 +1,53 @@
+<div id="toggle" (click)="toggleNav()" [class.toggled]="navToggle === true">
+  <ul>
+    <li>
+      <a href="#" >
+        <span class="line l1"></span>
+        <span class="line l3"></span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<section id="full-screen-nav" class="panel" [class.active]="navToggle === true">
+  <nav id="nav">
+    <ul>
+      <li class="nav-item" (click)="toggleNav()">
+        <a pageScroll href="#mission-section">Missione
+          <span class="desc">
+            Safety Bio Life - It makes your life better.
+          </span>
+        </a>
+      </li>
+      <li class="nav-item" (click)="toggleNav()">
+        <a pageScroll href="#target-section">Obiettivo
+          <span class="desc">
+            AMBIENTE / QUALITÀ / SALUTE E SICUREZZA
+          </span>
+        </a>
+      </li>
+      <li class="nav-item" (click)="toggleNav()">
+        <a pageScroll href="#third-section">Servizi
+          <span class="desc">
+            Sanificazione ambientale a base di ozono.
+          </span>
+        </a>
+      </li>
+      <li class="nav-item" (click)="toggleNav()">
+        <a pageScroll href="#sbl-areas">Ambiti di applicazione
+          <span class="desc">
+            PRIVATO / PUBBLICO / SANITARIO / SPORTIVO / PRODUTTIVO
+          </span>
+        </a>
+      </li>
+      <li class="nav-item" (click)="toggleNav()">
+        <a pageScroll href="#contact-section">Contatti
+        <span class="desc">
+          Sede legale in Viale Sondrio 5, 20124 Milano
+        </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</section>
+
