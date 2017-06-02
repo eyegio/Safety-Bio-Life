@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal, NgbActiveModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from '../login/login.component';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modalService: NgbModal){
+}
 
   ngOnInit() {
+  }
+
+  open() {
+    console.log("trying to open");
+    const modalRef = this.modalService.open(LoginComponent);
   }
 
 }

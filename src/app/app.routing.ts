@@ -2,7 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
-import { DetailComponent } from './components/areas/detail/detail.component';
+import { LoginComponent } from './components/login/login.component';
 
 const appRoutes: Routes = [
   {
@@ -10,8 +10,8 @@ const appRoutes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'detail-component',
-    component: DetailComponent
+    path: 'login',
+    component: LoginComponent
   }
 ];
 

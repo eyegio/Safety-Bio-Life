@@ -17,6 +17,7 @@ import { MapComponent } from './components/map/map.component';
 import { HomeComponent } from './components/home/home.component';
 import { TargetComponent } from './components/target/target.component';
 import { ServicesComponent } from './components/services/services.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ServicesComponent } from './components/services/services.component';
     DetailComponent,
     HomeComponent,
     TargetComponent,
-    ServicesComponent
+    ServicesComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
