@@ -1,93 +1,23 @@
 <section id="sbl-areas" class="sbl-section">
-    <h1 class="title-section">AMBITI</h1>
-    <div class="container">
-     <div class="row">
-        <div class="col-md-6">
-          <div class="view view-tenth">
-            <img src="../.../../assets/images/settore-privato.png" class="card-img-top img-fluid" alt="Card image Settore Privato"/>
-            <div class="mask">
-              <h2>Settore Privato</h2>
-              <p>Case, condomini, cantine, servizi igienici, impianti di climatizzazione, auto, camion, camper</p>
-              <a href="s-privato.html" class="info">Articolo completo</a>
-            </div>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">Settore Privato</h4>
-            <p class="card-text">Case, condomini, cantine, servizi igienici, impianti di climatizzazione, auto, camion, camper</p>
-            <p class="card-text"><small>L’inquinamento dell’aria non riguarda soltanto gli ambienti esterni ma coinvolge anche l’ambiente domestico. Polveri sottili, fumo di sigaretta, spray, allergeni sono soltanto alcune delle sostanze nocive che inquinano quotidianamente la nostra casa.</small></p>
-            <a href="s-privato.html" class="btn btn-primary">...leggi tutto!</a>
+  <h1 class="title-section">AMBITI</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" *ngFor="let article of articles">
+        <div class="view view-tenth">
+          <img src="{{article.url}}" class="card-img-top img-fluid" alt="card-image"/>
+          <div class="mask">
+            <h2>{{article.name}}</h2>
+            <p>{{article.subtitle}}</p>
+            <a (click)="onSelect(article)" class="info">Articolo completo</a>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="view view-tenth">
-            <img src="../.../../assets/images/settore-pubblico.png" class="card-img-top img-fluid" alt="Card image Settore Pubblico"/>
-            <div class="mask">
-              <h2>Settore Pubblico</h2>
-              <p>Negozi, bar, ristoranti, hotel, poste, banche, scuole, sale di attesa</p>
-              <a href="s-pubblico.html" class="info">Articolo completo</a>
-            </div>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">Settore Pubblico</h4>
-            <p class="card-text">Negozi, bar, ristoranti, hotel, poste, banche, scuole, sale di attesa</p>
-            <p class="card-text"><small>L’ozono è un potente disinfettante ecologico, in grado di eliminare virus, batteri, funghi, muffe, odori, residui tossici e nocivi organici ed inorganici. Sterilizza l’aria, le superfici e gli oggetti presenti nell’ambiente trattato.</small></p>
-            <a href="s-pubblico.html" class="btn btn-primary">...leggi tutto!</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-tenth">
-            <img src="../.../../assets/images/settore-sanitario.png" class="card-img-top img-fluid" alt="Card image Settore Sanitario"/>
-            <div class="mask">
-              <h2>Settore Sanitario</h2>
-              <p>Ospedali, sale degenza, sale operatorie, poliambulatori, studi medici e dentistici, studi veterinari</p>
-              <a href="s-pubblico.html" class="info">Articolo completo</a>
-            </div>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">Settore Sanitario</h4>
-            <p class="card-text">Ospedali, sale degenza, sale operatorie, poliambulatori, studi medici e dentistici, studi veterinari</p>
-             <p class="card-text"><small>Nel settore medico l’igiene degli ambienti e delle strumentazioni è necessario e fondamentale per evitare la diffusione di malattie e garantire una sicurezza igienico-sanitaria al paziente e al personale sanitario.</small></p>
-             <a href="s-sanitario.html" class="btn btn-primary">...leggi tutto!</a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="view view-tenth">
-            <img src="../.../../assets/images/settore-sportivo.png" class="card-img-top img-fluid" alt="Card image Settore Attivita Sportive"/>
-            <div class="mask">
-              <h2>Settore Sportivo</h2>
-              <p>Palestre, saune, solarium, piscine, spogliatoi</p>
-              <a href="s-sportivo.html" class="info">Articolo completo</a>
-            </div>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">Settore Sportivo</h4>
-            <p class="card-text">Palestre, saune, solarium, piscine, spogliatoi</p>
-            <p class="card-text"><small>In ambienti dove vengono svolte attività fisiche e si concentrano un elevato numero di persone, risulta fondamentale l’utilizzo di un generatore di Ozono. L’ozono essendo un potente disinfettante ecologico è in grado di eliminare virus, batteri, funghi, muffe ed eventuali odori presenti, rendendo un ambiente pulito, sanificato ed ossigenato.</small></p>
-             <a href="s-sportivo.html" class="btn btn-primary">...leggi tutto!</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-tenth">
-            <img src="../.../../assets/images/settore-produttivo.png" class="card-img-top img-fluid" alt="Card image Settore Produttivo"/>
-            <div class="mask">
-              <h2>Settore Produttivo</h2>
-              <p>Mense, industrie alimentari, conserviere, panifici, laboratori artigianali dolciari e gelaterie, macelli, allevamenti e stalle</p>
-              <a href="s-produttivo.html" class="info">Articolo completo</a>
-            </div>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">Settore Produttivo</h4>
-            <p class="card-text">Mense, industrie alimentari, conserviere, panifici, laboratori artigianali dolciari e gelaterie, macelli, allevamenti e stalle</p>
-            <p class="card-text"><small>Il trattamento e la conservazione di formaggi richiede un tasso di umidità elevato che rende il formaggio e gli ambienti di conservazione, particolarmente soggetti alla formazione di muffa.</small></p>
-             <a href="s-produttivo.html" class="btn btn-primary">...leggi tutto!</a>
-          </div>
-        </div>
-        <div class="col-md-6">
+        <div class="card-block">
+          <h4 class="card-title">{{article.name}}</h4>
+          <p class="card-text">{{article.subtitle}}</p>
+          <p class="card-text"><small>{{article.intro}}</small></p>
+          <a (click)="onSelect(article)" class="btn btn-primary">...leggi tutto!</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>

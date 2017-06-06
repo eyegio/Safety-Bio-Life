@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
-  selector: 'app-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.sass']
 })
 export class DetailComponent implements OnInit {
+  public articleName;
+ 
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    let name = this.route.snapshot.params['name'];
+    this.articleName = name;
   }
-
 }
+
+  
+
+
