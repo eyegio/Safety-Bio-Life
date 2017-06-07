@@ -1,0 +1,42 @@
+[
+    {
+        "field_ref_box": "box2",
+        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
+        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
+        "field_lavorazione_1": "0",
+        "field_lavorazione_2": "2",
+        "field_lavorazione_3": "1",
+        "field_lavorazione_4": "0",
+        "field_cicli_di_ricarica": "1"
+    },
+    {
+        "field_ref_box": "box1",
+        "field_data_invio": "Mar, 02\/05\/2017 - 13:00\n",
+        "field_ref_tipo_di_comunicazione":"100 - Comunicazione 1",
+        "field_lavorazione_1": "4",
+        "field_lavorazione_2": "2",
+        "field_lavorazione_3": "1",
+        "field_lavorazione_4": "0",
+        "field_cicli_di_ricarica": "0"
+    },
+    {
+        "field_ref_box": "box1",
+        "field_data_invio": "Lun, 01\/05\/2017 - 13:00\n",
+        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
+        "field_lavorazione_1": "4",
+        "field_lavorazione_2": "1",
+        "field_lavorazione_3": "1",
+        "field_lavorazione_4": "0",
+        "field_cicli_di_ricarica": "0"
+    },
+    {
+        "field_ref_box": "box1",
+        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
+        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
+        "field_lavorazione_1": "3",
+        "field_lavorazione_2": "1",
+        "field_lavorazione_3": "1",
+        "field_lavorazione_4": "0",
+        "field_cicli_di_ricarica": "0"
+    }
+]

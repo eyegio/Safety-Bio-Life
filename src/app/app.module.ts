@@ -17,6 +17,10 @@ import { HomeComponent } from './components/home/home.component';
 import { TargetComponent } from './components/target/target.component';
 import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SidebarComponent } from './components/dashboard/sidebar/sidebar.component';
+import { TableComponent } from './components/dashboard/table/table.component';
+
 
 
 @NgModule({
@@ -30,7 +34,10 @@ import { LoginComponent } from './components/login/login.component';
     HomeComponent,
     TargetComponent,
     ServicesComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    SidebarComponent,
+    TableComponent
   ],
   imports: [
     BrowserAnimationsModule,

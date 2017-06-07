@@ -1,0 +1,53 @@
+<section id="stats">
+  <div class="container-fluid">
+    <div class="login-name">
+      <p class="user-name">Username here...</p>
+    </div>
+    <div class="table-card" [@cardstats]>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+              <th>LABEL</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr *ngFor="let message of messages">
+              <td>
+                {{message.field_ref_box}}
+              </td>
+              <td>
+                {{message.field_data_invio}}
+              </td>
+              <td>
+                {{message.field_ref_tipo_di_comunicazione}}
+              </td>
+              <td>
+                {{message.field_lavorazione_1}}
+              </td>
+              <td >
+                {{message.field_lavorazione_2}}
+              </td>
+              <td>
+                {{message.field_lavorazione_3}}
+              </td>
+              <td>
+                {{message.field_lavorazione_4}}
+              </td>
+              <td>
+                {{message.field_cicli_di_ricarica}}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
