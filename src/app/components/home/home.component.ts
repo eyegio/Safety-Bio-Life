@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal, NgbActiveModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from '../login/login.component';
 import { trigger, state, animate, transition, style } from '@angular/core';
-
+import { AuthService } from './../../auth.service';
 
 @Component({
   selector: 'app-home',
@@ -31,9 +31,13 @@ import { trigger, state, animate, transition, style } from '@angular/core';
 ]
 })
 export class HomeComponent implements OnInit {
+  email: string;
+  password: string;
 
-  constructor(private modalService: NgbModal){
-}
+  constructor(
+    private modalService: NgbModal,
+    public authService: AuthService) {
+  }
 
   ngOnInit() {
   }

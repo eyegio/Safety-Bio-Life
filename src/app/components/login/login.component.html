@@ -1,18 +1,30 @@
-<div class="sbl-login">
+<div class="sbl-login" *ngIf="authService.user | async">
+  <div class="modal-header">
+    <h4 class="modal-title">Welcome {{ (authService.user | async)?.email }}!</h4>
+    <p class="modal-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellendus ab error earum necessitatibus aut, eligendi veritatis, possimus deserunt, laudantium inventore harum! Quasi maiores sequi magnam ipsa, error, repellendus aut!.</p>
+  </div>
+</div>
+
+
+<div class="sbl-login" *ngIf="!(authService.user | async)">
   <div class="modal-header">
     <h4 class="modal-title">Welcome</h4>
     <p class="modal-sub-title">This is a private area. You need to know the credentials to view the private page.</p>
   </div>
   <div class="modal-body">
     <div class="form-group">
-      <input type="email" class="form-control" placeholder="Enter Email">
+      <input type="text" class="form-control" [(ngModel)]="email" placeholder="Enter Email">
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" placeholder="Enter Password">
+      <input type="password" class="form-control" [(ngModel)]="password" placeholder="Enter Password">
+    </div>
+    <div class="form-group">
+      <div id="label-err"></div>
     </div>
   </div>
+  
   <div class="modal-footer">
-    <button routerLink="/private-dashboard" type="submit" class="btn btn-block btn-lg btn-primary">SIGN IN</button>
+    <button (click)="login()" [disabled]="!email || !password" class="btn btn-block btn-lg btn-primary">LOGIN</button>
   </div>
 </div>
-
+   

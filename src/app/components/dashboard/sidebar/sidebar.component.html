@@ -1,7 +1,7 @@
 <div class="sidebar-wrapper">
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link" routerLink="/"><img src="../../../assets/images/home.svg" alt=""></a>
+      <a class="nav-link" (click)="logout()" *ngIf="authService.user | async"><img src="../../../assets/images/home.svg" alt=""></a>
     </li>
   </ul>
 </div>

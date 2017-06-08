@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { DetailComponent } from './components/areas/detail/detail.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 const appRoutes: Routes = [
@@ -19,10 +18,6 @@ const appRoutes: Routes = [
   {
     path: 'ambito/:name',
     component: DetailComponent
-  },
-  {
-    path: 'private-dashboard',
-    component: DashboardComponent
   }
 ];
 
