@@ -5,23 +5,31 @@
     </div>
     <div class="table-card" [@cardstats]>
       <div class="table-responsive">
-        <table class="table">
+        <table class="table table-striped">
           <thead>
             <tr>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
-              <th>LABEL</th>
+              <th>IMEI</th>
+              <th>N˚</th>
+              <th>Address</th>
+              <th>Data</th>
+              <th>Ragione Invio</th>
+              <th>Lavorazione 1</th>
+              <th>Lavorazione 2</th>
+              <th>Lavorazione 3</th>
+              <th>Lavorazione 4</th>
+              <th>Cicli Ricarica</th>
             </tr>
           </thead>
           <tbody>
              <tr *ngFor="let message of messages">
               <td>
+                {{message.field_ref_imei}}
+              </td>
+              <td>
                 {{message.field_ref_box}}
+              </td>
+              <td>
+                {{message.field_ref_address}}
               </td>
               <td>
                 {{message.field_data_invio}}
