@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {trigger,state,style,transition,animate,keyframes, group} from '@angular/core';
+import { trigger,state,style,transition,animate,keyframes, group } from '@angular/core';
 import { SblService } from '../../../sbl.service';
 import { AuthService } from './../../../auth.service';
 
@@ -110,8 +110,6 @@ import { AuthService } from './../../../auth.service';
 export class TableComponent implements OnInit {
     messages = [];
     errorMessage: string;
-    email: string;
-    password: string;
 
   constructor(
     private _sblService: SblService,
