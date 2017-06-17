@@ -1,7 +1,7 @@
 <section id="stats">
   <div class="container-fluid">
-    <div class="table-name">
-      <p class="user-name">Client Name</p>
+    <div *ngFor="let label of labels"class="table-name">
+      <p class="user-name">{{label.field_cliente}}</p>
     </div>
     <div class="table-card" [@cardstats]>
       <div class="table-responsive">
@@ -23,13 +23,13 @@
           <tbody>
              <tr *ngFor="let message of messages">
               <td>
-                {{message.field_ref_imei}}
+                {{message.field_box_imei}}
               </td>
               <td>
                 {{message.field_ref_box}}
               </td>
               <td>
-                {{message.field_ref_address}}
+                {{message.field_box_address}}
               </td>
               <td>
                 {{message.field_data_invio}}

@@ -28,6 +28,7 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/dashboard/sidebar/sidebar.component';
 import { TableComponent } from './components/dashboard/table/table.component';
+import { FormComponent } from './components/form/form.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { TableComponent } from './components/dashboard/table/table.component';
     LoginComponent,
     DashboardComponent,
     SidebarComponent,
-    TableComponent
+    TableComponent,
+    FormComponent
   ],
   imports: [
     BrowserAnimationsModule,

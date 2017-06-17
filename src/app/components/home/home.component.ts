@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, NgbActiveModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from '../login/login.component';
+import { FormComponent } from '../form/form.component'
 import { trigger, state, animate, transition, style } from '@angular/core';
 import { AuthService } from './../../auth.service';
 
@@ -45,6 +46,11 @@ export class HomeComponent implements OnInit {
   open() {
     console.log("trying to open");
     const modalRef = this.modalService.open(LoginComponent);
+  }
+
+  openForm() {
+    console.log("trying to open Form");
+    const modalRef = this.modalService.open(FormComponent);
   }
 
 }
