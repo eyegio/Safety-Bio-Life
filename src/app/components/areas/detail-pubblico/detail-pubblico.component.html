@@ -1,8 +1,8 @@
-<section class="detail-component">
+<section class="detail-component" id="detail-article">
   <header></header>
   <div class="body-section">
     <div class="container">
-      <a routerLink="/" class="btn btn-primary">Home</a>
+      <a [@rotateAnimation]="state" (mouseover)="animateMe()" routerLink="/" class="fa fa-long-arrow-left fa-2x back-icon"></a>
       <div class="col-md-12 wrapper-article">
         <h4 class="article-title">Settore Pubblico</h4>
         <p class="card-text">Negozi, bar, ristoranti, hotel, poste, banche, scuole, sale di attesa</p>
@@ -44,7 +44,8 @@
       <div class="col-sm-12 text-wrapper">
         <p class="text-xs-center">Safety Bio Life</p>
       </div>
-      <!--<a class="btn btn-primary icon-arrow-up" href="#top" role="button"></a>-->
+      <a pageScroll [pageScrollOffset]="250" [pageScrollDuration]="800" [@rotateAnimation]="state"
+          (mouseover)="animateMe()" href="#detail-article" class="btn btn-top">TOP</a>
     </div>
   </footer>
 </section>

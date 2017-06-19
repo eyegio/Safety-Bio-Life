@@ -4,7 +4,7 @@
     position: relative
     background-color: $dark-color
     color: $light-color
-    padding-top: 10vh
+    padding: 10vh 0
     .title-section 
         font-size: 6em
         top: auto 
@@ -17,6 +17,9 @@
         position: absolute
         right: 125px
         top: -106px
+    .card-block
+        a.all-article
+             color: #7ED321
     
 
 
@@ -112,3 +115,88 @@
 .list-group
     color: black
     padding-bottom: 50px
+
+
+
+
+
+
+section.detail-component
+  header
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    height: 60vh
+    z-index: -1
+    position: fixed
+    width: 100%
+    top: 0
+    &:after
+      content: ""
+      height: 60vh
+      width: 100%
+      position: absolute
+      top: 0;
+      z-index: 9
+      background-color: #5D5F65
+      opacity: 0.75
+
+  .body-section
+    margin-top: 60vh
+    background-color: #fff
+    padding: 0
+    .back-icon
+      background-color: #7ED321
+      height: 75px
+      width: 75px
+      border-radius: 50%
+      padding: 21px
+      line-height: 34px
+      color: #fff
+      position: absolute
+      top: -36px
+      text-decoration: none
+    .wrapper-article
+      padding: 15vh 0
+      .article-title
+        text-transform: uppercase;
+        font-family: 'Archivo Black', sans-serif;
+        color: #4990E2
+      p.card-text
+        padding-bottom: 50px
+        letter-spacing: 0.1em
+        font-weight: 600
+      p.text-xs-left
+        text-align: left !important
+    a.btn
+      position: absolute
+      top: -21px
+      z-index: 999
+
+  footer
+    .text-wrapper
+      padding: 50px 0
+      background-color: #d3d3d3
+      text-align: center
+      p 
+        margin: 0
+    a.btn.icon-arrow-up
+      position: absolute
+      left: 35px
+      bottom: 100px
+      border-radius: 50%
+      width: 65px
+      height: 65px
+      line-height: 3
+
+  .btn-top
+    position: absolute
+    left: 25px
+    background: black
+    color: #fff
+    line-height: 61px
+    border-radius: 50%
+    height: 75px
+    width: 75px
+    margin-top: 34px
