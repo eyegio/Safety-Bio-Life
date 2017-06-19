@@ -26,8 +26,8 @@ export class SblService {
   }
 
   getLabels() {
-    let username: string = 'admin';  // QUI gli fai scrivere user e password che prendi dal form di login
-    let password: string = 'admin';
+    let username: string = 'cliente1';  // QUI gli fai scrivere user e password che prendi dal form di login
+    let password: string = 'test';
     let headers: Headers = new Headers();
     headers.append("Authorization", "Basic " + btoa(username + ":" + password)); 
     headers.append("Content-Type", "application/x-www-form-urlencoded");
