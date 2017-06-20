@@ -1,8 +1,8 @@
 [
     {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box2",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "0",
@@ -12,9 +12,9 @@
         "field_cicli_di_ricarica": "1"
     },
     {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Mar, 02\/05\/2017 - 13:00\n",
         "field_ref_tipo_di_comunicazione":"100 - Comunicazione 1",
         "field_lavorazione_1": "4",
@@ -24,9 +24,9 @@
         "field_cicli_di_ricarica": "0"
     },
     {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 13:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "4",
@@ -36,9 +36,9 @@
         "field_cicli_di_ricarica": "0"
     },
     {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -48,9 +48,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -60,9 +60,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -72,9 +72,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -84,9 +84,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -96,9 +96,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -108,9 +108,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -120,9 +120,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -132,9 +132,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -144,9 +144,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",
@@ -156,9 +156,9 @@
         "field_cicli_di_ricarica": "0"
     },
      {
-        "field_ref_imei": "123456789012345",
+        "field_box_imei": "123456789012345",
         "field_ref_box": "box1",
-        "field_ref_address": "Viale Sondrio 5, 20124 Milano",
+        "field_box_address": "Viale Sondrio 5, 20124 Milano",
         "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
         "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
         "field_lavorazione_1": "3",

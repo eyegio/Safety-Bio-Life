@@ -18,7 +18,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MissionComponent } from './components/mission/mission.component';
 import { AreasComponent } from './components/areas/areas.component';
-import { DetailComponent } from './components/areas/detail/detail.component';
 
 import { MapComponent } from './components/map/map.component';
 import { HomeComponent } from './components/home/home.component';
@@ -28,6 +27,12 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/dashboard/sidebar/sidebar.component';
 import { TableComponent } from './components/dashboard/table/table.component';
+import { FormComponent } from './components/form/form.component';
+import { DetailPubblicoComponent } from './components/areas/detail-pubblico/detail-pubblico.component';
+import { DetailSanitarioComponent } from './components/areas/detail-sanitario/detail-sanitario.component';
+import { DetailSportivoComponent } from './components/areas/detail-sportivo/detail-sportivo.component';
+import { DetailProduttivoComponent } from './components/areas/detail-produttivo/detail-produttivo.component';
+import { DetailPrivatoComponent } from './components/areas/detail-privato/detail-privato.component';
 
 
 @NgModule({
@@ -37,14 +42,19 @@ import { TableComponent } from './components/dashboard/table/table.component';
     MissionComponent,
     AreasComponent,
     MapComponent,
-    DetailComponent,
     HomeComponent,
     TargetComponent,
     ServicesComponent,
     LoginComponent,
     DashboardComponent,
     SidebarComponent,
-    TableComponent
+    TableComponent,
+    FormComponent,
+    DetailPubblicoComponent,
+    DetailSanitarioComponent,
+    DetailSportivoComponent,
+    DetailProduttivoComponent,
+    DetailPrivatoComponent
   ],
   imports: [
     BrowserAnimationsModule,

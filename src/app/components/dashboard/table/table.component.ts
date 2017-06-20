@@ -109,16 +109,22 @@ import { AuthService } from './../../../auth.service';
 })
 export class TableComponent implements OnInit {
     messages = [];
+    labels = [];
     errorMessage: string;
+    errorLabel: string;
 
   constructor(
     private _sblService: SblService,
     public authService: AuthService) { }
 
   ngOnInit() {
-      this._sblService.getMessages()
-      .subscribe(resMessageData => this.messages = resMessageData,
-                 resMessageError => this.errorMessage = resMessageError)
+    this._sblService.getMessages()
+    .subscribe(resMessageData => this.messages = resMessageData,
+               resMessageError => this.errorMessage = resMessageError)
+                
+    this._sblService.getLabels()
+    .subscribe(resLabelData => this.labels = resLabelData,
+               resLabelError => this.errorLabel = resLabelError)
   }
 
 }

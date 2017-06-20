@@ -7,10 +7,14 @@
 
 <div *ngIf="!(authService.user | async)">
   <section id="home-section">
+    <div class="sbl-logo">
+      <!--<img src="{{sblLogo}}" alt="sbl-logo">-->
+    </div>
     <div class="text-header-wrapper">
-      <a class="link link--mallki" href="#">SAFETY BIO LIFE<span data-letters="SAFETY BIO LIFE"></span><span data-letters="SAFETY BIO LIFE"></span></a>
+      <!--<a class="link link--mallki" href="#">SAFETY BIO LIFE<span data-letters="SAFETY BIO LIFE"></span><span data-letters="SAFETY BIO LIFE"></span></a>-->
+      <img src="{{sblTextLogo}}" alt="sbl-logo" class="sbl-logo-text img-fluid">
       <p>It makes your life better</p>
-      <a (click)="open()" [@loginAnimate] class="btn btn-success btn-lg btn-login">LOGIN</a>
+      <a (click)="open()" [@loginAnimate] class="btn btn-outline-secondary btn-lg btn-login">LOGIN</a>
     </div>
   </section>
   <app-navbar></app-navbar>

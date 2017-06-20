@@ -1,0 +1,39 @@
+<section class="detail-component" id="detail-article">
+  <header></header>
+  <div class="body-section">
+    <div class="container">
+      <a [@rotateAnimation]="state" (mouseover)="animateMe()" routerLink="/" class="fa fa-long-arrow-left fa-2x back-icon"></a>
+      <div class="col-md-12 wrapper-article">
+        <h4 class="article-title">Settore Sportivo</h4>
+        <p class="card-text">Palestre, saune, solarium, piscine, spogliatoi</p>
+        <p class="text-xs-left">In ambienti dove vengono svolte attività fisiche e si concentrano un elevato numero di persone, risulta fondamentale l’utilizzo di un generatore di Ozono.</p>
+        <p class="text-xs-left">Perché il generatore di Ozono:</p>
+        <p class="text-xs-left">L’ozono essendo un potente disinfettante ecologico è in grado di eliminare virus, batteri, funghi, muffe ed eventuali odori presenti, rendendo un ambiente pulito, sanificato ed ossigenato.</p>
+        <p class="text-xs-left">Perché il generatore di Ozono:</p>
+        <ul>
+          <li><p>Non richiede l’utilizzo di prodotti chimici.</p></li>
+          <li><p>L’ozono non maschera gli odori, li elimina letteralmente scomponendo i composti odoranti in sostanze ridotte che perdono il loro odore e la loro tossicità.</p></li>
+          <li><p>Certezza dei costi.</p></li>
+          <li><p>Ecologico – non inquina l’ambiente.</p></li>
+          <li><p>Non lascia residui di nessun tipo.</p></li>
+          <li><p>Eliminare odori di tabacco, cibo, rifiuti, escrementi, vomito, umidità.</p></li>
+          <li><p>È un sistema automatico, non necessita di lavoro meccanico.</p></li>
+          <li><p>È un potente disinfettante in grado di penetrare anche negli angoli più difficili da raggiungere.</p></li>
+          <li><p>Eliminare tossine VOC composti organici volatili.</p></li>
+          <li><p>Ridurre il monossido di carbonio.</p></li>
+          <li><p>Previene la diffusione di malattie ed infezioni.</p></li>
+          <li><p>Rende gli ambienti puliti, ossigenati e disinfettati</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 text-wrapper">
+        <p class="text-xs-center">Safety Bio Life</p>
+      </div>
+      <a pageScroll [pageScrollOffset]="250" [pageScrollDuration]="800" [@rotateAnimation]="state"
+          (mouseover)="animateMe()" href="#detail-article" class="btn btn-top">TOP</a>
+    </div>
+  </footer>
+</section>

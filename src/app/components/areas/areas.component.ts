@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
+import { ActivatedRoute, Params } from '@angular/router';
+
 
 @Component({
   selector: 'app-areas',
@@ -8,12 +10,13 @@ import { Router } from '@angular/router'
 })
 export class AreasComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private route: ActivatedRoute,
+              private router: Router) { }
 
   articles = [
     {
       'id': 1,
-      'name': 'Settore-Privato',
+      'name': 'settore-privato',
       'title': 'Settore Privato',
       'url': '../.../../assets/images/settore-privato.png',
       'subtitle': 'Case, condomini, cantine, servizi igienici, impianti di climatizzazione, auto, camion, camper',
@@ -21,7 +24,7 @@ export class AreasComponent implements OnInit {
     },
      {
       'id': 2,
-      'name': 'Settore-Pubblico',
+      'name': 'settore-pubblico',
       'title': 'Settore Pubblico',
       'url': '../.../../assets/images/settore-pubblico.png',
       'subtitle': 'L’ozono è un potente disinfettante ecologico, in grado di eliminare virus, batteri, funghi, muffe, odori, residui tossici e nocivi organici ed inorganici. Sterilizza l’aria, le superfici e gli oggetti presenti nell’ambiente trattato.',
@@ -29,7 +32,7 @@ export class AreasComponent implements OnInit {
   },
      {
       'id': 3,
-      'name': 'Settore-Sanitario',
+      'name': 'settore-sanitario',
       'title': 'Settore Sanitario',
       'url': '../.../../assets/images/settore-sanitario.png',
       'subtitle': 'Ospedali, sale degenza, sale operatorie, poliambulatori, studi medici e dentistici, studi veterinari',
@@ -37,7 +40,7 @@ export class AreasComponent implements OnInit {
     },
      {
       'id': 4,
-      'name': 'Settore-Sportivo',
+      'name': 'settore-sportivo',
       'title': 'Settore Sportivo',
       'url': '../.../../assets/images/settore-sportivo.png',
       'subtitle': 'Palestre, saune, solarium, piscine, spogliatoi',
@@ -45,7 +48,7 @@ export class AreasComponent implements OnInit {
     },
      {
       'id': 5,
-      'name': 'Settore-Produttivo',
+      'name': 'settore-produttivo',
       'title': 'Settore Produttivo',
       'url': '../.../../assets/images/settore-produttivo.png',
       'subtitle': 'Mense, industrie alimentari, conserviere, panifici, laboratori artigianali dolciari e gelaterie, macelli, allevamenti e stalle',
@@ -56,7 +59,5 @@ export class AreasComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(article){
-    this.router.navigate(['/ambito', article.name]);
-  }
+  
 }
