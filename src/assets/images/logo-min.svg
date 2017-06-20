@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="79px" viewBox="0 0 73 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Foglie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-470.000000, -62.000000)" fill-rule="nonzero">
+            <g id="Logo-2-b" transform="translate(470.000000, 62.000000)">
+                <g id="Foglie">
+                    <path d="M70.6414864,0 C76.3655193,17.1355468 70.8352117,30.7547974 52.1827597,36.9869022 C46.2869327,19.3469388 51.9890344,6.23210478 70.6414864,0 Z" id="Shape" fill="#D7DF23"></path>
+                    <path d="M53.5425856,79.4632254 C20.9199843,79.4632254 0.919622968,62.0847354 0.919622968,26.5854969 C34.4998849,26.5854969 53.5425856,43.9712973 53.5425856,79.4632254 Z" id="Shape" fill="#8FC33F" transform="translate(27.231104, 53.024361) rotate(-1.000000) translate(-27.231104, -53.024361) "></path>
+                    <path d="M54,79 C25.8550107,62.4968017 16.9137984,37.7544928 34.8754188,7.13493756 C63.8318611,24.1242766 71.9616205,48.3804447 54,79 Z" id="Shape" fill="#8FC33F"></path>
+                    <path d="M50.5196467,19.1130064 C49.3719159,24.3508986 49.9457813,30.3563814 52.1681389,37.0234542 C54.9680506,36.107097 57.6634497,34.897843 60.2095644,33.4157783 C58.0785867,28.2985075 54.8291197,23.5321352 50.5196467,19.1130064 L50.5196467,19.1130064 Z" id="Shape" fill="#68B745"></path>
+                    <path d="M25.8946086,30.7401767 C22.9704539,50.6865672 33.5089857,66.9780688 54,79 C54,53.6073713 43.7758148,37.8275967 25.8946086,30.7401767 Z" id="Shape" fill="#56AA5A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

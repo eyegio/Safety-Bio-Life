@@ -34,6 +34,8 @@ import { AuthService } from './../../auth.service';
 export class HomeComponent implements OnInit {
   email: string;
   password: string;
+  sblLogo: string = "./../assets/images/logo-min.svg";
+  sblTextLogo: string = "./../assets/images/logo-text.svg"
 
   constructor(
     private modalService: NgbModal,
