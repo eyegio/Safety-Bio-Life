@@ -10,6 +10,7 @@ export class LoginComponent implements OnInit {
 
   email: string;
   password: string;
+  sblTextLogo: string = "./../assets/images/logo-text.svg"
   
   constructor(public authService: AuthService) {}
 
