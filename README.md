@@ -30,9 +30,4 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Demo
-If you want to see a complete demo you need to download this repo and used this credentials: 
-Login Name: g.segagni@gmail.com 
-Login Password: admin_1234.
-
 
