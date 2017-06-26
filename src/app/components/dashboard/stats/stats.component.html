@@ -1,0 +1,59 @@
+<section id="stats">
+  <div class="container-fluid">
+    <div class="row">
+      <div class=col-lg-6>
+        <div class="graph-card" [@cardstats]>
+          <canvas baseChart
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            [options]="lineChartOptions"
+            [colors]="lineChartColors"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
+      <div class=col-lg-6>
+        <div class="graph-card" [@cardstats]>
+          <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class=col-lg-6>
+        <div class="graph-card" [@cardstats]>
+          <canvas baseChart
+            [data]="polarAreaChartData"
+            [labels]="polarAreaChartLabels"
+            [legend]="polarAreaLegend"
+            [chartType]="polarAreaChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
+      <div class=col-lg-6>
+        <div class="graph-card" [@cardstats]>
+          <canvas baseChart
+            [data]="doughnutChartData"
+            [labels]="doughnutChartLabels"
+            [chartType]="doughnutChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

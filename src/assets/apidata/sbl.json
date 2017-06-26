@@ -1,170 +1,68 @@
 [
     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box2",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "0",
-        "field_lavorazione_2": "2",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "1"
+        "field_ref_cliente": "cliente1",
+        "field_lav_1": "Car",
+        "field_lav_2": "Van",
+        "field_lav_3": "Camper",
+        "field_lav_4": "Bus",
+        "field_sms": [
+            {
+                "field_ref_box": "BOX1",
+                "field_box_imei": "12345678901234561",
+                "field_box_address": "Via Cardano 14 - 27100 PV Italia",
+                "field_data_invio": "Ven, 02\/06\/2017 - 13:00\n",
+                "field_ref_tipo_di_comunicazione": "001 - Messaggio inviato per riavvio dopo scarica completa batteria",
+                "field_lavorazione_1": "4",
+                "field_lavorazione_2": "3",
+                "field_lavorazione_3": "2",
+                "field_lavorazione_4": "1",
+                "field_cicli_di_ricarica": "1"
+            },
+            {
+                "field_ref_box": "BOX2",
+                "field_box_imei": "12345678901234562",
+                "field_box_address": "Via Prova 1 - 27100 PV Italia",
+                "field_data_invio": "Ven, 02\/06\/2017 - 15:00\n",
+                "field_ref_tipo_di_comunicazione": "001 - Messaggio inviato per riavvio dopo scarica completa batteria",
+                "field_lavorazione_1": "14",
+                "field_lavorazione_2": "23",
+                "field_lavorazione_3": "32",
+                "field_lavorazione_4": "1",
+                "field_cicli_di_ricarica": "1"
+            },
+            {
+                "field_ref_box": "BOX3",
+                "field_box_imei": "12345678901234563",
+                "field_box_address": "Via Prova2 14 - 27100 PV Italia",
+                "field_data_invio": "Ven, 02\/06\/2017 - 18:00\n",
+                "field_ref_tipo_di_comunicazione": "001 - Messaggio inviato per riavvio dopo scarica completa batteria",
+                "field_lavorazione_1": "12",
+                "field_lavorazione_2": "13",
+                "field_lavorazione_3": "21",
+                "field_lavorazione_4": "11",
+                "field_cicli_di_ricarica": "1"
+            }
+        ]
     },
     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Mar, 02\/05\/2017 - 13:00\n",
-        "field_ref_tipo_di_comunicazione":"100 - Comunicazione 1",
-        "field_lavorazione_1": "4",
-        "field_lavorazione_2": "2",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-    {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 13:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "4",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-    {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
-    },
-     {
-        "field_box_imei": "123456789012345",
-        "field_ref_box": "box1",
-        "field_box_address": "Viale Sondrio 5, 20124 Milano",
-        "field_data_invio": "Lun, 01\/05\/2017 - 12:00\n",
-        "field_ref_tipo_di_comunicazione": "100 - Comunicazione 1",
-        "field_lavorazione_1": "3",
-        "field_lavorazione_2": "1",
-        "field_lavorazione_3": "1",
-        "field_lavorazione_4": "0",
-        "field_cicli_di_ricarica": "0"
+        "field_ref_cliente": "cliente2",
+        "field_lav_1": "Lab1",
+        "field_lav_2": "Lab2",
+        "field_lav_3": "Lab3",
+        "field_lav_4": "Lab4",
+        "field_sms": [
+            {
+                "field_ref_box": "BOX1",
+                "field_box_imei": "12345678901234561",
+                "field_box_address": "Via Bianchi 1 - 27100 PV Italia",
+                "field_data_invio": "Gio, 01\/06\/2017 - 11:00\n",
+                "field_ref_tipo_di_comunicazione": "001 - Messaggio inviato per riavvio dopo scarica completa batteria",
+                "field_lavorazione_1": "14",
+                "field_lavorazione_2": "23",
+                "field_lavorazione_3": "32",
+                "field_lavorazione_4": "4",
+                "field_cicli_di_ricarica": "1"
+            }
+        ]
     }
 ]

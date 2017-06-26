@@ -1,9 +1,24 @@
 <div class="wrapper">
-    <div class="sidebar" data-color="myago" data-image="">
-        <app-sidebar></app-sidebar>
+    <div class="sidebar" data-color="sbl" data-image="">
+        <div class="sidebar-wrapper">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" (click)="viewTable()"><img src="../../../assets/images/info-sms.svg" alt="home-icon">SMS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="viewStats()"><img src="../../../assets/images/stats.svg" alt="stats-icon">STATS</a>
+                </li>
+            </ul>
+        </div>
         <div class="sidebar-background"></div>
     </div>
     <div class="main-panel">
-        <app-table></app-table>
+        <div class="login-name">
+            <p class="user-name">Welcome {{ (authService.user | async)?.email }}!</p>
+            <a class="nav-link" (click)="logout()" [routerLink]="['/']"><img src="../../../assets/images/home.svg" alt="home-icon"></a>
+        </div>
+        <div *ngIf="isValid; then table else stats"></div>
+        <ng-template #table><app-table></app-table></ng-template>
+        <ng-template #stats><app-stats></app-stats></ng-template>
     </div>
 </div>
