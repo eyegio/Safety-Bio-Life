@@ -1,7 +1,4 @@
 <div *ngIf="authService.user | async">
-  <div class="login-name">
-    <p class="user-name" *ngIf="authService.user | async">Welcome {{ (authService.user | async)?.email }}!</p>
-  </div>
   <app-dashboard></app-dashboard>
 </div>
 

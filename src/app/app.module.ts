@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { FormsModule } from '@angular/forms';
+import { ChartsModule } from 'ng2-charts';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
@@ -25,7 +27,6 @@ import { TargetComponent } from './components/target/target.component';
 import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { SidebarComponent } from './components/dashboard/sidebar/sidebar.component';
 import { TableComponent } from './components/dashboard/table/table.component';
 import { FormComponent } from './components/form/form.component';
 import { DetailPubblicoComponent } from './components/areas/detail-pubblico/detail-pubblico.component';
@@ -33,6 +34,7 @@ import { DetailSanitarioComponent } from './components/areas/detail-sanitario/de
 import { DetailSportivoComponent } from './components/areas/detail-sportivo/detail-sportivo.component';
 import { DetailProduttivoComponent } from './components/areas/detail-produttivo/detail-produttivo.component';
 import { DetailPrivatoComponent } from './components/areas/detail-privato/detail-privato.component';
+import { StatsComponent } from './components/dashboard/stats/stats.component';
 
 
 @NgModule({
@@ -47,19 +49,20 @@ import { DetailPrivatoComponent } from './components/areas/detail-privato/detail
     ServicesComponent,
     LoginComponent,
     DashboardComponent,
-    SidebarComponent,
     TableComponent,
     FormComponent,
     DetailPubblicoComponent,
     DetailSanitarioComponent,
     DetailSportivoComponent,
     DetailProduttivoComponent,
-    DetailPrivatoComponent
+    DetailPrivatoComponent,
+    StatsComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     ReactiveFormsModule,
+    NgxPaginationModule,
     HttpModule,
     Ng2PageScrollModule.forRoot(),
     NgbModule.forRoot(),
@@ -69,6 +72,7 @@ import { DetailPrivatoComponent } from './components/areas/detail-privato/detail
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     FormsModule,
+    ChartsModule,
     Routing
   ],
   providers: [AuthService],

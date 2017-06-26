@@ -1,4 +1,4 @@
-# OnePageProject
+# Angular 4 Project
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
@@ -31,4 +31,8 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Demo
-If you want to see a demo, I used this project to create my personal website: www.giovannisegagni.com
+If you want to see a complete demo you need to download this repo and used this credentials: 
+Login Name: g.segagni@gmail.com 
+Login Password: admin_1234.
+
+
